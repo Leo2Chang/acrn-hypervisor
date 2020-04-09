@@ -35,6 +35,8 @@ Build the Docker Image from Dockerfile
 #. Download `Dockerfile <https://raw.githubusercontent.com/projectacrn/acrn-hypervisor/master/doc/getting-started/Dockerfile>`_
    to your development machine.
 #. Build the Docker image:
+   This will build Docker image with latest Clear Linux version with GCC 9.3.1
+   We get issue :acrn-issue:`4560` during build ACRN HV, please refer next section to get Docker Image from Docker Hub.
 
    .. code-block:: none
 
